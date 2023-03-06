@@ -8,8 +8,8 @@ import Contact from './Components/Contact';
 function App() {
   return (
     <div>
-      This is a website
       <Header />
+      This is a website
       <Home />
       <Vault />
       <Contact />
