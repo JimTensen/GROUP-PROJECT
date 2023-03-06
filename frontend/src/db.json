@@ -1,0 +1,109 @@
+{
+    "cards": [
+      {
+        "id": 1,
+        "athlete": "Carmelo Anthony",
+        "pack": "2003 Upper Deck Honor Roll",
+        "grade": 10,
+        "image": ""
+      },
+      {
+        "id": 2,
+        "athlete": "Kobe Bryant",
+        "pack": "1996 Metal",
+        "grade": 7,
+        "image": ""
+      },
+      {
+        "id": 3,
+        "athlete": "Kobe Bryant",
+        "pack": "1996 Hoops Rookie",
+        "grade": 8,
+        "image": ""
+      },
+      {
+        "id": 4,
+        "athlete": "Michael Jordan",
+        "pack": "1996 Metal",
+        "grade": 6,
+        "image": ""
+      },
+      {
+        "id": 5,
+        "athlete": "Tyrese Haliburton",
+        "pack": "2020 Panini Select",
+        "grade": 10,
+        "image": ""
+      },
+      {
+        "id": 6,
+        "athlete": "Barry Bonds",
+        "pack": "1995 Emotion",
+        "grade": 10,
+        "image": ""
+      },
+      {
+        "id": 7,
+        "athlete": "Cal Ripken Jr.",
+        "pack": "1995 Emotion",
+        "grade": 10,
+        "image": ""
+      },
+      {
+        "id": 8,
+        "athlete": "Derek Jeter",
+        "pack": "1995 Emotion",
+        "grade": 10,
+        "image": ""
+      },
+      {
+        "id": 9,
+        "athlete": "Ken Griffey Jr.",
+        "pack": "1995 Emotion",
+        "grade": 10,
+        "image": ""
+      },
+      {
+        "id": 10,
+        "athlete": "Ken Griffey Jr.",
+        "pack": "1989 Upper Deck",
+        "grade": "Authentic",
+        "image": ""
+      },
+      {
+        "id": 11,
+        "athlete": "Edgerrin James",
+        "pack": "1999 Bowman's Best",
+        "grade": 10,
+        "image": ""
+      },
+      {
+        "id": 12,
+        "athlete": "Isaac Bruce",
+        "pack": "1999 Bowman's Best",
+        "grade": 9,
+        "image": ""
+      },
+      {
+        "id": 13,
+        "athlete": "Peyton Manning",
+        "pack": "1998 UD Choice",
+        "grade": 8,
+        "image": ""
+      },
+      {
+        "id": 14,
+        "athlete": "Peyton Manning",
+        "pack": "1998 Skybox E-X2001",
+        "grade": 8,
+        "image": ""
+      },
+      {
+        "id": 15,
+        "athlete": "Peyton Manning",
+        "pack": "1999 Flair Showcase",
+        "grade": 10,
+        "image": ""
+      }
+    ]
+  }
