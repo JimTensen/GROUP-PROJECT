@@ -2,10 +2,25 @@ import React from 'react'
 
 function Card({card}) {
 
-  return (
-    <div>
+  
 
-<div className="min-w-screen h-screen animated fadeIn faster  fixed  left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center  
+  return (
+    <div class="container grid grid-cols-5 gap-2 mx-auto">
+      
+      <div class="w-full rounded">
+      <h2>{card.athlete}</h2>
+      <img
+        src={card.imagefront}
+        alt={card.athlete}
+      />
+      <p> Grade: {card.grade} </p>
+      
+    </div>
+
+
+
+
+{/* <div className="min-w-screen h-screen animated fadeIn faster  fixed  left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center  
   bg-cover" id="modal-id">
   <div className="absolute bg-black opacity-80 inset-0 z-0"></div>
   <div className="relative min-h-screen flex flex-col items-center justify-center ">
@@ -38,7 +53,7 @@ function Card({card}) {
               <div className="text-xl text-white font-semibold mt-1">CARD DETAILS???</div>
               <div className="lg:flex  py-4  text-sm text-gray-600">
                 <div className="flex-1 inline-flex items-center  mb-3">
-                  <div className="w-full flex-none text-sm flex items-center text-gray-600">
+                  <div className="w-full flex-none text-sm flex items-center text-gray-600"> */}
                     {/* <ul className="flex flex-row justify-center items-center space-x-2">
                       <li className="">
                         <span className="block p-1 border-2 border-gray-900 hover:border-blue-600 rounded-full transition ease-in duration-300">
@@ -61,8 +76,8 @@ function Card({card}) {
                         </span>
                       </li>
                     </ul> */}
-                  </div>
-                </div>
+                  {/* </div>
+                </div> */}
                 {/* <div className="flex-1 inline-flex items-center mb-3">
                   <span className="text-secondary whitespace-nowrap mr-3">Size</span>
                   <div className="cursor-pointer text-gray-400 ">
@@ -73,7 +88,7 @@ function Card({card}) {
 
                   </div>
                 </div> */}
-              </div>
+              {/* </div>
               <div className="flex space-x-2 text-sm font-medium justify-start">
                 <button className="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-purple-500 px-5 py-2 hover:shadow-lg tracking-wider text-white rounded-full hover:bg-purple-600 ">
                   <span>BUY/TRADE</span>
@@ -91,7 +106,7 @@ function Card({card}) {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
 </div>
   )
