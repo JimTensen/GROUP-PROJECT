@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Search() {
+function Search() {
   return (
     <div>
       <input type='text' placeholder='Start Searching'/>
@@ -8,3 +8,5 @@ export default function Search() {
     </div>
   )
 }
+
+export default Search;
