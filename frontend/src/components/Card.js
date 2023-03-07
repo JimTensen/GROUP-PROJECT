@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Card() {
-  return (
+function Card({card}) {
 
+  return (
     <div>
 
 <div className="min-w-screen h-screen animated fadeIn faster  fixed  left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center  
@@ -19,7 +19,7 @@ function Card() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg></button>
               </div>
-              <img src={"IMAGE GOES HERE"} alt={"IMAGE DESCRIPTION GOES HERE"} className=" w-full   object-fill  rounded-2xl"/>
+              <img src={card.imagefront} alt={"IMAGE DESCRIPTION GOES HERE"} className=" w-full   object-fill  rounded-2xl"/>
             </div>
             <div className="flex-auto justify-evenly">
               <div className="flex flex-wrap ">
