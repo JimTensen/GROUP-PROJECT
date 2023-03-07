@@ -5,9 +5,9 @@ function Card({card}) {
   
 
   return (
-    <div class="container grid grid-cols-5 gap-2 mx-auto">
+    <div>
       
-      <div class="w-full rounded">
+      <div>
       <h2>{card.athlete}</h2>
       <img
         src={card.imagefront}

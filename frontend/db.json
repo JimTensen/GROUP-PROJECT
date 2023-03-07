@@ -149,38 +149,6 @@
       "imageback": "https://images4.imagebam.com/ff/7f/60/MEJ8XZG_o.png",
       "altfront": "Peyton Manning 1999 Flair Showcase PSA 10 FRONT",
       "altback": "Peyton Manning 1999 Flair Showcase PSA 10 BACK"
-    },
-    {
-      "athlete": "A",
-      "pack": "P",
-      "grade": "G",
-      "cardFront": "CF",
-      "cardBack": "CB",
-      "id": 16
-    },
-    {
-      "athlete": "a",
-      "pack": "p",
-      "grade": "g",
-      "cardFront": "c",
-      "cardBack": "asofihaowsuigb",
-      "id": 17
-    },
-    {
-      "athlete": "asd",
-      "pack": "asda",
-      "grade": "asda",
-      "cardFront": "asddf",
-      "cardBack": "f",
-      "id": 18
-    },
-    {
-      "athlete": "1",
-      "pack": "2",
-      "grade": "3",
-      "cardFront": "4",
-      "cardBack": "5",
-      "id": 19
     }
   ]
 }

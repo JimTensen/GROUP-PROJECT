@@ -1,18 +1,9 @@
-import React, {useState, useEffect} from 'react'
-import CardForm from './CardForm';
-import CardList from './CardList';
+import React from 'react'
+import CardContainer from './CardContainer';
 import Search from './Search';
 import {Link} from 'react-router-dom';
 
 function Vault() {
-
-  const [cards, setCards] = useState([])
-
-  useEffect(() => {
-    fetch('http://localhost:3000/cards')
-      .then(r=>r.json())
-      .then(setCards)
-  }, [])
 
   return (
     <div>
@@ -21,9 +12,8 @@ function Vault() {
       </div>
       <div>
         <h3>Vault</h3>
-        <CardForm />
       </div>
-        <CardList cards={cards}/>
+      <CardContainer />
       <Link to='/home'>Home</Link>
       <Link to='/contact'>Contact</Link>
     </div>

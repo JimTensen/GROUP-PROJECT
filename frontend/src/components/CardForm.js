@@ -1,11 +1,6 @@
 import React, {useState} from 'react'
 
-function CardForm() {
-
-
-  const [cards, setCards] = useState([])
-
-
+function CardForm({addCard}) {
   const [ newAthlete, setNewAthlete ] = useState()
   const [ newPack, setNewPack ] = useState()
   const [ newGrade, setNewGrade ] = useState()
@@ -29,19 +24,7 @@ function CardForm() {
     }
     addCard(newCard)
   }
-  
-  const addCard = (cO) => {
-    const cardArr = [...cards, cO]
-    fetch('http://localhost:3000/cards', {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify(cO)
-    })
-    .then(response => response.json())
-    setCards(cardArr)
-  }
 
-  
   return (
     <div>
       <form onSubmit={ handleSubmit }>
