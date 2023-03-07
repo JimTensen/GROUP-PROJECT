@@ -1,4 +1,4 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
 import Vault from './Components/Vault';
@@ -7,6 +7,20 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 function App() {
+
+  const [cards, setCards] = useState([])
+
+  const addCardToState = cardObj => {
+    setCards([...cards,cardObj])
+  }
+
+  useEffect(() => {
+    fetch('http://localhost:3001/cards')
+      .then(r=>r.json())
+      .then(setCards)
+  }, [])
+
+
   return (
   <Router>
     <NavBar />

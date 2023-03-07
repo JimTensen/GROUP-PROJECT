@@ -1,10 +1,16 @@
 import React from 'react'
 import Card from './Card'
 
-export default function CardList() {
+export default function CardList({cards}) {
+
+  const cardsArray = cards.map(cardObj => {
+    return <Card key={cardObj.id} card={cardObj} />
+  })
+
+
   return (
-    <div>
-      <Card />
-    </div>
+    <ul className="cards">
+      {cardsArray}
+    </ul>
   )
 }
