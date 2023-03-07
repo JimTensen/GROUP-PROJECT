@@ -2,14 +2,11 @@ import React from 'react'
 import Search from './Search'
 import {Link} from 'react-router-dom';
 
-const myHeaderStyle = {
-  padding: 0,
-  display: 'inline-block'
-}
+
 
 export default function Header() {
   return (
-  <header style={myHeaderStyle}>
+  <header>
     <nav>
       <h1><Link to="/">Home</Link></h1>
       <Search />
