@@ -8,11 +8,11 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+  <Router>
     <NavBar />
-        <Route path='/' exact component={Home} />
-        <Route path='/vault' component={Vault} />
-        <Route path='/contact' component={Contact} />
+    <Route path='/' exact component={Home} />
+    <Route path='/vault' component={Vault} />
+    <Route path='/contact' component={Contact} />
   </Router>
   );
 }
