@@ -6,6 +6,7 @@ export default function Vault() {
   return (
     <div>
       <CardContainer />
+        Vault
       <CardForm />
     </div>
   )

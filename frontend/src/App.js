@@ -1,19 +1,19 @@
 import React from 'react'
-import Header from './Components/Header';
+import NavBar from './Components/NavBar';
 import Home from './Components/Home';
 import Vault from './Components/Vault';
 import Contact from './Components/Contact';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div>
-      <Header />
-      This is a website
-      <Home />
-      <Vault />
-      <Contact />
-    </div>
+    <Router>
+    <NavBar />
+      <Route path='/' exact component={Home} />
+      <Route path='/vault' component={Vault} />
+      <Route path='/contact' component={Contact} />
+  </Router>
   );
 }
 
