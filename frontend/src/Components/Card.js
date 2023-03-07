@@ -5,7 +5,7 @@ export default function Card() {
 
     <div>
 
-{/* <div className="min-w-screen h-screen animated fadeIn faster  fixed  left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center  
+<div className="min-w-screen h-screen animated fadeIn faster  fixed  left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center  
   bg-cover" id="modal-id">
   <div className="absolute bg-black opacity-80 inset-0 z-0"></div>
   <div className="relative min-h-screen flex flex-col items-center justify-center ">
@@ -19,7 +19,7 @@ export default function Card() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg></button>
               </div>
-              <img src={"IMAGE GOES HERE"} alt={"IMAGE DESCRIPTION GOES HERE"} className=" w-full   object-fill  rounded-2xl"/>
+              <img src={"https://images4.imagebam.com/72/12/c2/MEJ8JYG_o.png"} alt={"IMAGE DESCRIPTION GOES HERE"} className=" w-full   object-fill  rounded-2xl"/>
             </div>
             <div className="flex-auto justify-evenly">
               <div className="flex flex-wrap ">
@@ -39,7 +39,7 @@ export default function Card() {
               <div className="lg:flex  py-4  text-sm text-gray-600">
                 <div className="flex-1 inline-flex items-center  mb-3">
                   <div className="w-full flex-none text-sm flex items-center text-gray-600">
-                    <ul className="flex flex-row justify-center items-center space-x-2">
+                    {/* <ul className="flex flex-row justify-center items-center space-x-2">
                       <li className="">
                         <span className="block p-1 border-2 border-gray-900 hover:border-blue-600 rounded-full transition ease-in duration-300">
                           <a href="#blue" className="block w-3 h-3 bg-blue-600 rounded-full"></a>
@@ -60,10 +60,10 @@ export default function Card() {
                           <a href="#green" className="block w-3 h-3  bg-green-500 rounded-full"></a>
                         </span>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
-                <div className="flex-1 inline-flex items-center mb-3">
+                {/* <div className="flex-1 inline-flex items-center mb-3">
                   <span className="text-secondary whitespace-nowrap mr-3">Size</span>
                   <div className="cursor-pointer text-gray-400 ">
                     <span className="hover:text-purple-500 p-1 py-0">S</span>
@@ -72,7 +72,7 @@ export default function Card() {
                     <span className="hover:text-purple-500 p-1 py-0">XL</span>
 
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="flex space-x-2 text-sm font-medium justify-start">
                 <button className="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-purple-500 px-5 py-2 hover:shadow-lg tracking-wider text-white rounded-full hover:bg-purple-600 ">
@@ -91,7 +91,7 @@ export default function Card() {
       </div>
     </div>
   </div>
-</div> */}
+</div>
 
 </div>
   )
