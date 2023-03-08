@@ -5,8 +5,17 @@ function Home() {
   return (
     <div>
       <h1>Home</h1>
-      <Link to='/vault'>Vault</Link>
-      <Link to='/contact'>Contact</Link>
+      <nav className="p-3 text-center">
+        <Link to='/vault' className="p-10">Vault</Link>
+        <Link to='/contact' className="p-10">Contact</Link>
+      </nav>
+      <div className="scroll-bg">
+        <div className="scroll-div">
+          <div className="scroll-obj">
+          LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

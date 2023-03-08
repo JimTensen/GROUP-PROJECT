@@ -8,11 +8,21 @@ const hStyle={
 
 function Header() {
     return(
-        <div style={hStyle}>
-            <h1>The Vault</h1>
-            <Link to='/home'>Home</Link>
-            <Link to='/vault'>Vault</Link>
-            <Link to='/contact'>Contact</Link>
+        <div className="bg-gray-400" >
+            <div>
+                <h1 className="inline-block">The Vault</h1>
+            </div>
+            <nav className="text-right"> 
+                <div className="inline-block px-10 ">
+                    <Link to='/home'>Home</Link>
+                </div>
+                <div className="inline-block px-10 ">
+                    <Link to='/vault'>Vault</Link>
+                </div>
+                <div className="inline-block px-10 ">
+                    <Link to='/contact'>Contact</Link>
+                </div>
+            </nav>
         </div>
     )
 }

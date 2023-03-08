@@ -5,7 +5,7 @@ function Card({card}) {
   
 
   return (
-    <div>
+    <div className="inline-block">
       
       {/* <div>
       <h2>{card.athlete}</h2>
@@ -21,10 +21,9 @@ function Card({card}) {
 
 
 
-  <div className="relative min-h-screen flex flex-col items-center justify-center ">
-    <div className="container">
-      <div className="max-w-md w-full bg-gray-900 shadow-lg rounded-xl p-6">
-        <div className="flex flex-col ">
+    <div >
+      <div className="max-w-xs bg-white hover:bg-gray-900 shadow-lg rounded-xl p-6">
+        <div className="max-w-xs">
           <div className="">
             <div className="relative h-62 w-full mb-3">
               <div className="absolute flex flex-col top-0 right-0 p-3">
@@ -68,7 +67,7 @@ function Card({card}) {
       </div>
     </div>
   </div>
-  </div>
+
   )
 }
 export default Card;

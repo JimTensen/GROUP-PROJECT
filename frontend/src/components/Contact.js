@@ -5,8 +5,10 @@ function Contact() {
   return (
     <div>
       <h2>Contact</h2>
-      <Link to='/home'>Home</Link>
-      <Link to='/vault'>Vault</Link>
+      <nav className="p-3 text-center">
+        <Link to='/home' className="p-10">Home</Link>
+        <Link to='/vault' className="p-10">Vault</Link>
+      </nav>
     </div>
   )
 }
