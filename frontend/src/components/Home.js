@@ -1,12 +1,10 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import HomeDivs from './HomeDivs';
 
 function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <Link to='/vault'>Vault</Link>
-      <Link to='/contact'>Contact</Link>
+      <HomeDivs />
     </div>
   )
 }
