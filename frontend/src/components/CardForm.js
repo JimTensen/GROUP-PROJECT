@@ -2,12 +2,14 @@ import React, {useState} from 'react'
 
 function CardForm({addCard}) {
   const [ newAthlete, setNewAthlete ] = useState()
+  const [ newCategory, setNewCategory ] = useState()
   const [ newPack, setNewPack ] = useState()
   const [ newGrade, setNewGrade ] = useState()
   const [ newCardFront, setCardFront ] = useState()
   const [ newCardBack, setCardBack ] = useState()
   
   const athleteChange = e => setNewAthlete(e.target.value)
+  const categoryChange = e => setNewCategory(e.target.value)
   const packChange = e => setNewPack(e.target.value)
   const gradeChange = e => setNewGrade(e.target.value)
   const cardFrontChange = e => setCardFront(e.target.value)
@@ -17,6 +19,7 @@ function CardForm({addCard}) {
     e.preventDefault()
     const newCard = {
       athlete: newAthlete,
+      category: newCategory,
       pack: newPack,
       grade: newGrade,
       cardFront: newCardFront,
@@ -30,6 +33,9 @@ function CardForm({addCard}) {
       <form onSubmit={ handleSubmit }>
       <div>
         <input className="border-black border rounded-md" type='text' placeholder='Athlete...'onChange={ e => athleteChange(e) }/>
+      </div>
+      <div>
+        <input className="border-black border rounded-md" type='text' placeholder='Category...'onChange={ e => categoryChange(e) }/>
       </div>
       <div>
         <input className="border-black border rounded-md" type='text' placeholder='Pack...'onChange={ e => packChange(e) }/>

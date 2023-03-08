@@ -3,6 +3,7 @@
     {
       "id": 1,
       "athlete": "Carmelo Anthony",
+      "category": "basketball",
       "pack": "2003 Upper Deck Honor Roll",
       "grade": 10,
       "imagefront": "https://images4.imagebam.com/f9/5d/0c/MEJ8XZJ_o.png",
@@ -13,6 +14,7 @@
     {
       "id": 2,
       "athlete": "Kobe Bryant",
+      "category": "basketball",
       "pack": "1997 Metal Universe",
       "grade": 7,
       "imagefront": "https://images4.imagebam.com/86/23/80/MEJ8XZP_o.png",
@@ -23,6 +25,7 @@
     {
       "id": 3,
       "athlete": "Kobe Bryant",
+      "category": "basketball",
       "pack": "1996 Hoops Rookie",
       "grade": 8,
       "imagefront": "https://images4.imagebam.com/e6/7d/68/MEJ8XZM_o.png",
@@ -33,6 +36,7 @@
     {
       "id": 4,
       "athlete": "Michael Jordan",
+      "category": "basketball",
       "pack": "1996 Metal",
       "grade": 6,
       "imagefront": "https://images4.imagebam.com/d4/d9/c5/MEJ8XZX_o.png",
@@ -43,6 +47,7 @@
     {
       "id": 5,
       "athlete": "Tyrese Haliburton",
+      "category": "basketball",
       "pack": "2020 Panini Select",
       "grade": 10,
       "imagefront": "https://images4.imagebam.com/52/5f/8f/MEJ8Y00_o.png",
@@ -53,6 +58,7 @@
     {
       "id": 6,
       "athlete": "Barry Bonds",
+      "category": "baseball",
       "pack": "1995 Emotion",
       "grade": 10,
       "imagefront": "https://images4.imagebam.com/23/3b/ad/MEJ8Y05_o.jpg",
@@ -63,6 +69,7 @@
     {
       "id": 7,
       "athlete": "Cal Ripken Jr.",
+      "category": "baseball",
       "pack": "1995 Emotion",
       "grade": 10,
       "imagefront": "https://images4.imagebam.com/e3/55/77/MEJ8Y08_o.png",
@@ -73,6 +80,7 @@
     {
       "id": 8,
       "athlete": "Derek Jeter",
+      "category": "baseball",
       "pack": "1995 Emotion",
       "grade": 10,
       "imagefront": "https://images4.imagebam.com/0e/a1/d8/MEJ8Y0A_o.png",
@@ -83,6 +91,7 @@
     {
       "id": 9,
       "athlete": "Ken Griffey Jr.",
+      "category": "baseball",
       "pack": "1995 Emotion",
       "grade": 10,
       "imagefront": "https://images4.imagebam.com/8d/a6/74/MEJ8Y0D_o.png",
@@ -93,6 +102,7 @@
     {
       "id": 10,
       "athlete": "Ken Griffey Jr.",
+      "category": "baseball",
       "pack": "1989 Upper Deck",
       "grade": "Authentic",
       "imagefront": "https://images4.imagebam.com/44/81/89/MEJ8Y0F_o.png",
@@ -103,6 +113,7 @@
     {
       "id": 11,
       "athlete": "Edgerrin James",
+      "category": "football",
       "pack": "1999 Bowman's Best",
       "grade": 10,
       "imagefront": "https://images4.imagebam.com/d8/70/bd/MEJ8XZ3_o.png",
@@ -113,6 +124,7 @@
     {
       "id": 12,
       "athlete": "Isaac Bruce",
+      "category": "football",
       "pack": "1999 Bowman's Best",
       "grade": 9,
       "imagefront": "https://images4.imagebam.com/ca/d9/1b/MEJ8XZ5_o.png",
@@ -123,6 +135,7 @@
     {
       "id": 13,
       "athlete": "Peyton Manning",
+      "category": "football",
       "pack": "1998 UD Choice",
       "grade": 8,
       "imagefront": "https://images4.imagebam.com/2b/d6/6d/MEJ8XZF_o.png",
@@ -133,6 +146,7 @@
     {
       "id": 14,
       "athlete": "Peyton Manning",
+      "category": "football",
       "pack": "1998 Skybox E-X2001",
       "grade": 8,
       "imagefront": "https://images4.imagebam.com/36/aa/0f/MEJ8XZ9_o.png",
@@ -143,6 +157,7 @@
     {
       "id": 15,
       "athlete": "Peyton Manning",
+      "category": "football",
       "pack": "1999 Flair Showcase",
       "grade": 10,
       "imagefront": "https://images4.imagebam.com/3a/37/d9/MEJ8XZH_o.png",
