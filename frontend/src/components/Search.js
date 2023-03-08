@@ -1,10 +1,12 @@
 import React from 'react'
 
-function Search() {
+function Search({changeSearchTerm}) {
+
+  const handleChange = e => changeSearchTerm(e.target.value)
+
   return (
     <div>
-      <input type='text' placeholder='Start Searching'/>
-      <button type='submit'>Search</button>
+      <input type='text' placeholder='Start Searching' onChange={handleChange} />
     </div>
   )
 }

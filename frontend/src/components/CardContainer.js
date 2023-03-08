@@ -1,16 +1,29 @@
 import React, {useState, useEffect} from 'react';
 import CardForm from './CardForm';
 import CardList from './CardList';
+import Search from './Search';
 
 function CardContainer() {
     
-    const [cards, setCards] = useState([])
+  const [cards, setCards] = useState([])
 
-    useEffect(() => {
-    fetch('http://localhost:3000/cards')
-      .then(r=>r.json())
-      .then(setCards)
-    }, []) 
+  useEffect(() => {
+  fetch('http://localhost:3000/cards')
+    .then(r=>r.json())
+    .then(setCards)
+  }, []) 
+
+  const [searchTerm, setSearchTerm] = useState("")
+
+  const changeSearchTerm = newString => setSearchTerm(newString.toLowerCase())
+
+  const byAthlete = ({athlete}) => {
+    if(athlete.toLowerCase().includes(searchTerm)) {
+      return true
+    }
+  }
+
+  const searchCard = cards.filter(byAthlete)
 
     const addCard = (cO) => {
       const cardArr = [...cards, cO]
@@ -25,9 +38,14 @@ function CardContainer() {
     
     return(
         <div>
-          <CardForm addCard={addCard} />
           <div>
-            <CardList cards={cards} />
+            <Search changeSearchTerm={changeSearchTerm} />
+          </div>
+          <div>
+            <CardForm addCard={addCard} />
+          </div>
+          <div>
+            <CardList cards={searchCard} />
           </div>
         </div>
     )
