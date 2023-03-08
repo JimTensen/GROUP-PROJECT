@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const fStyle={
     textAlign: 'center',
@@ -8,7 +9,9 @@ const fStyle={
 function Footer() {
     return(
         <div style={fStyle}>
-            Footer Component
+            <Link to='/home'>Home</Link>
+            <Link to='/vault'>Vault</Link>
+            <Link to='/contact'>Contact</Link>
         </div>
     )
 }

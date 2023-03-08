@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import HomeDivs from './HomeDivs';
 
 function Home() {
   return (

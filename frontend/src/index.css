@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.float-parent-element { 
+    width: 50%; 
+    border-style: solid;
+} 
+.float-child-element { 
+    float: left; 
+    width: 50%; 
+} 
+
 .scroll-bg{
     background: blue;
     width: 400px;
@@ -24,3 +33,4 @@
     font-size: 20px;
     padding: 10px;
 }
+
