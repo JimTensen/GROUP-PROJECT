@@ -8,9 +8,13 @@ function Vault() {
       <div>
         <h3>Vault</h3>
       </div>
-      <CardContainer />
-      <Link to='/home'>Home</Link>
-      <Link to='/contact'>Contact</Link>
+      <nav className="p-3 text-center"> 
+        <CardContainer />
+        <div className="p-10">
+          <Link to='/home' className="px-10">Home</Link>
+          <Link to='/contact' className="px-10">Contact</Link>
+        </div>
+      </nav>
     </div>
   )
 }

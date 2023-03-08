@@ -38,13 +38,13 @@ function CardContainer() {
     
     return(
         <div>
-          <div>
+          <div className="p-5">
             <Search changeSearchTerm={changeSearchTerm} />
           </div>
           <div>
             <CardForm addCard={addCard} />
           </div>
-          <div>
+          <div >
             <CardList cards={searchCard} />
           </div>
         </div>

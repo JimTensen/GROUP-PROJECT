@@ -10,3 +10,27 @@
     float: left; 
     width: 50%; 
 } 
+
+.scroll-bg{
+    background: blue;
+    width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 30px;
+    float: right;
+}
+
+.scroll-div{
+    width:400px;
+    background: blue;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.scroll-obj{
+    color: wheat;
+    font-size: 20px;
+    padding: 10px;
+}
+

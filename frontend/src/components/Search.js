@@ -6,7 +6,7 @@ function Search({changeSearchTerm}) {
 
   return (
     <div>
-      <input type='text' placeholder='Start Searching' onChange={handleChange} />
+      <input className="text-center w-full border-2 border-black rounded-md" type='text' placeholder='Start Searching' onChange={handleChange} />
     </div>
   )
 }
