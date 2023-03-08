@@ -29,22 +29,22 @@ function CardForm({addCard}) {
     <div>
       <form onSubmit={ handleSubmit }>
       <div>
-        <input type='text' placeholder='Athlete...'onChange={ e => athleteChange(e) }/>
+        <input className="border-black border rounded-md" type='text' placeholder='Athlete...'onChange={ e => athleteChange(e) }/>
       </div>
       <div>
-        <input type='text' placeholder='Pack...'onChange={ e => packChange(e) }/>
+        <input className="border-black border rounded-md" type='text' placeholder='Pack...'onChange={ e => packChange(e) }/>
       </div>
       <div>
-        <input type='text' placeholder='Grade...'onChange={ e => gradeChange(e) }/>
+        <input className="border-black border rounded-md" type='text' placeholder='Grade...'onChange={ e => gradeChange(e) }/>
       </div>
       <div>
-        <input type='text' placeholder='Card Front...'onChange={ e => cardFrontChange(e) }/>
+        <input className="border-black border rounded-md" type='text' placeholder='Card Front...'onChange={ e => cardFrontChange(e) }/>
       </div>
       <div>
-        <input type='text' placeholder='Card Back...'onChange={ e => cardBackChange(e) }/>
+        <input className="border-black border rounded-md" type='text' placeholder='Card Back...'onChange={ e => cardBackChange(e) }/>
       </div>
       <div>
-        <button type='submit'>Submit Card</button>
+        <button className="border-black border bg-gray-300" type='submit'>Submit Card</button>
       </div>
       </form>
     </div>

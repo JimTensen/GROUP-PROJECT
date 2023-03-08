@@ -8,7 +8,7 @@ function CardList( {cards} ) {
   })
 
   return (
-    <ul className="cards">
+    <ul className="bg-white shadow-lg rounded-xl">
       {cardsArray}
     </ul>
   )
