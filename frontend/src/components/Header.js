@@ -1,11 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const hStyle={
-    textAlign: 'center',
-    backgroundColor: 'gray',
-}
-
 function Header() {
     return(
         <div className="bg-gray-400" >
