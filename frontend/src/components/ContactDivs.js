@@ -5,7 +5,7 @@ function ContactDivs() {
   return (
     <div className='grid grid-cols-2 gap-12 pl-[200px] pr-[200px] pt-[150px] pb-[150px] bg-black'>
       <div>
-        <div className='bg-green-900 pl-10 pt-8 pb-8'>
+        <div className='bg-blue-600 pl-10 pt-8 pb-8'>
           <h1 className='text-2xl pb-2'>Contact Form</h1>
           <form>
               <label className='text-xl'><h3>Who Are You Trying To Reach?</h3></label>
@@ -28,7 +28,7 @@ function ContactDivs() {
             <textarea id="comments" style={{resize: "none", height: "175px", width: "400px", border: "solid", borderRadius: "4%"}}></textarea>
         </div>
       </div>
-      <div className='bg-green-900 text-center'>
+      <div className='bg-blue-400 text-center'>
         <div className='pt-12 pb-4 text-xl'>
           <h1>Reach Us by Phone Or Social Media</h1>
         </div>
