@@ -1,6 +1,6 @@
 import React from 'react';
 import Contact from './Contact';
-import Footer from './Footer';
+// import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
 import Vault from './Vault'
@@ -19,7 +19,7 @@ function Main () {
                 <Route path='/contact' component={Contact}/>
                 <Redirect to='/home'/>
             </Switch>
-            <Footer />    
+            {/* <Footer />     */}
         </div>
     )
 }

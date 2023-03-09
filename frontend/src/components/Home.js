@@ -24,6 +24,10 @@ function Home() {
       <div>
         <HomeDivs2 />
       </div>
+      <nav className="p-3 text-center text-white bg-black">
+        <Link to='/vault' className="p-10">Vault</Link>
+        <Link to='/contact' className="p-10">Contact</Link>
+      </nav>
     </>
   )
 }

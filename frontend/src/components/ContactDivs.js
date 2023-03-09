@@ -9,21 +9,32 @@ function ContactDivs() {
           <h1 className='text-2xl pb-2'>Contact Form</h1>
           <form>
               <label className='text-xl'><h3>Who Are You Trying To Reach?</h3></label>
-            <select>
+            <select className='text-black'>
               <option value="" disabled selected hidden>Choose Employee...</option>
               <option value="Beau Kim">Beau Kim</option>
               <option value="Mason Parks">Mason Parks</option>
               <option value="Tim Jensen">Tim Jensen</option>
             </select>
           </form>
-            <div className='text-l'>
+            <div>
               <h3>First Name</h3>
-                <input type='text'></input>
-              <h3>Last Name</h3>
-                <input type='text'></input>
-              <h3>Email</h3>
-                <input type='text'></input>
-              <h3>Comments</h3>
+                <div className='text-black'>
+                  <input type='text'></input>
+                </div>
+                <div className='text-black'>
+              <h3 className='text-white'>Last Name</h3>
+                </div>
+                <div className='text-black'>
+                  <input type='text'></input>
+                </div></div>
+                <div className='text-black'>
+              <h3 className='text-white'>Email</h3>
+                <div className='text-black'>  
+                  <input type='text'></input>
+                </div>
+                <div className='text-black'>
+              <h3 className='text-white'>Comments</h3>
+                </div>
             </div>
             <textarea id="comments" style={{resize: "none", height: "175px", width: "400px", border: "solid", borderRadius: "4%"}}></textarea>
         </div>

@@ -30,7 +30,7 @@ function HomeDivs2() {
                     </div>
                 </div>
             </div>
-            {/* <hr  style={{color: 'red', backgroundColor: 'red', height: 25, borderColor : 'red'}}/> */}
+            <hr  style={{color: 'red', backgroundColor: 'red', height: 25, borderColor : 'red'}}/>
 
         </>
     )
