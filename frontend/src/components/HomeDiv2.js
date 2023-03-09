@@ -5,10 +5,10 @@ function HomeDivs2() {
         <>
             <div className='bg-black grid grid-cols-2 place-content-center pb-8'>
                 <div>    
-                    <img src="https://upload.wikimedia.org/wikipedia/en/4/44/MLS_Season_Pass_logo.png" />
+                    <img src="https://upload.wikimedia.org/wikipedia/en/4/44/MLS_Season_Pass_logo.png" alt='' />
                 </div>  
                 <div>
-                    <img src="https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop/f_auto/mls-atl-prd/ktitkxubj324o2m9kebz.jpg" alt ="mls tickets" alt="cards" />
+                    <img src="https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop/f_auto/mls-atl-prd/ktitkxubj324o2m9kebz.jpg" alt ="mls tickets" />
                 </div>         
             </div>
             <div className='bg-black pt-8'>
