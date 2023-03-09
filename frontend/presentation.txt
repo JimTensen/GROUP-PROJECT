@@ -1,0 +1,32 @@
+
+athlete: Juan Soto
+category: baseball
+pack: 2018 Topps Brooklyn Collection
+grade: 10
+imagefront: https://images4.imagebam.com/0a/18/64/MEJAJJW_o.png
+imageback: https://images4.imagebam.com/20/67/65/MEJAJJR_o.png
+
+
+athlete: Ken Griffey Jr,
+category: baseball
+pack: 1991 Score
+grade: 10
+imagefront: 
+imageback: 
+
+
+athlete: Shohei Ohtani
+category: baseball
+pack: 2018 Topps
+grade: 10
+imagefront: https://images4.imagebam.com/11/8e/8f/MEJAJKA_o.png
+imageback: https://images4.imagebam.com/7e/93/45/MEJAJK5_o.png
+
+
+athlete: Tyrese Haliburton
+category: basketball
+pack: 2020 Donruss Optic
+grade: 10
+imagefront: https://images4.imagebam.com/20/84/e0/MEJAJKI_o.png
+imageback: https://images4.imagebam.com/82/7c/1a/MEJAJKD_o.png
+
