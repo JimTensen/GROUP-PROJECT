@@ -21,7 +21,7 @@ function ContactDivs() {
         <h3 style={{fontWeight: 'bold'}}>Email</h3>
           <input type='text' style={{height: "25px", width: "300px", border: "solid", borderRadius: "4%"}}></input>
         <h3 style={{fontWeight: 'bold'}}>Comments</h3>
-          <input type="text" style={{height: "175px", width: "400px", border: "solid", borderRadius: "4%"}}></input>
+          <textarea id="comments" style={{resize: "none", height: "175px", width: "400px", border: "solid", borderRadius: "4%"}}></textarea>
       </div>
       <div className='float-child-element'>
         <h1 style={{fontWeight: 'bold', fontSize: '18px'}}>Reach Us by Phone Or Social Media</h1>

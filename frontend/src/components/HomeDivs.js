@@ -3,9 +3,6 @@ import React from 'react';
 function HomeDivs() {
     return(
         <div style={{}}>
-            <div style={{width: "6500px", height: "400px"}}>
-                <img src="https://sportsfacilities.com/wp-content/uploads/2018/12/sports-stars-arena.jpg" alt='stock'/>
-            </div>
             <div>
                 <div style={{width: "250px", height: "200px"}}>
                     <img src="https://img.mlbstatic.com/mlb-images/image/upload/t_5x2/t_w1024/mlb/klfja6irldzppekxl90x.png" alt='astros' />

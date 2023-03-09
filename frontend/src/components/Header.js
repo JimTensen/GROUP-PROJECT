@@ -1,22 +1,23 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import vaultLogo from "./VaultLogoTransparent.PNG";
 
 function Header() {
     return(
-        <div className="bg-gray-400" >
-            <div>
-                <h1 className="inline-block">The Vault</h1>
-            </div>
-            <nav className="text-right"> 
-                <div className="inline-block px-10 ">
+        <div className="bg-gradient-to-r from-cyan-500 to-blue-500" >
+            <nav className="text-black font-serif font-semibold text-right"> 
+                <div className="text-2xl inline-block px-10 hover:text-white">
                     <Link to='/home'>Home</Link>
                 </div>
-                <div className="inline-block px-10 ">
+                <div className="text-2xl inline-block px-10 hover:text-white">
                     <Link to='/vault'>Vault</Link>
                 </div>
-                <div className="inline-block px-10 ">
+                <div className="text-2xl inline-block px-10 hover:text-white">
                     <Link to='/contact'>Contact</Link>
                 </div>
+                <Link to='/home'>
+                    <img className="text-left inline-block h-32 w-32"  src={vaultLogo} alt="Vault Logo"/>
+                </Link>
             </nav>
         </div>
     )
