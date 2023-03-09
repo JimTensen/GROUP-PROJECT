@@ -28,21 +28,6 @@ function ContactDivs() {
             <textarea id="comments" style={{resize: "none", height: "175px", width: "400px", border: "solid", borderRadius: "4%"}}></textarea>
         </div>
       </div>
-<<<<<<< HEAD
-      <div className='float-child-element'>
-        <h1 style={{fontWeight: 'bold', fontSize: '18px'}}>Reach Us by Phone Or Social Media</h1>
-      </div>
-      <h1 style={{fontWeight: 'bold'}}>LinkedIn Profiles:</h1>
-      <div>  
-        <a href="https://www.linkedin.com/in/beaukim/" rel="noopener" target="_blank" style={{color: 'blue', fontWeight: 'bold'}}>Beau Kim <LinkedInIcon/></a>
-
-      </div>
-      <div>  
-        <a href="https://www.linkedin.com/in/kenmparks/" rel="noopener" target="_blank" style={{color: 'blue', fontWeight: 'bold'}}>Mason Parks <LinkedInIcon/></a>
-      </div>
-      <div>  
-        <a href="https://www.linkedin.com/in/jimtensen/" rel="noopener" target="_blank" style={{color: 'blue', fontWeight: 'bold'}}>Tim Jensen <LinkedInIcon/></a>
-=======
       <div className='bg-green-900 text-center'>
         <div className='pt-12 pb-4 text-xl'>
           <h1>Reach Us by Phone Or Social Media</h1>
@@ -57,7 +42,6 @@ function ContactDivs() {
         <div className='text-l pt-4'>  
           <a href="https://www.linkedin.com/in/jimtensen/" rel="noreferrer" target="_blank" >Tim Jensen</a>
         </div>
->>>>>>> a883fd5ffcfa5f23b20cd43f783167b0c17d081d
       </div>
     </div>
   )
