@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.float-parent-element { 
-    width: 50%; 
-    border-style: solid;
-} 
-.float-child-element { 
-    float: left; 
-    width: 50%; 
-} 
-
 .scroll-bg{
     background: rgb(217, 212, 212);
     width: 350px;

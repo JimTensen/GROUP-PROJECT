@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import sportsPage from "./sportsHomePage.jpg";
 import HomeDivs from './HomeDivs';
+import HomeDivs2 from './HomeDiv2';
 
 function Home() {
   return (
@@ -20,6 +21,9 @@ function Home() {
           </aside>
         </div>
       </section>
+      <div>
+        <HomeDivs2 />
+      </div>
       <nav className="p-3 text-center">
         <Link to='/vault' className="p-10">Vault</Link>
         <Link to='/contact' className="p-10">Contact</Link>
