@@ -1,4 +1,5 @@
 import React from 'react'
+import SearchIcon from '@mui/icons-material/Search';
 
 function Search({changeSearchTerm}) {
 
@@ -6,7 +7,7 @@ function Search({changeSearchTerm}) {
 
   return (
     <div>
-      <input className="text-center w-full border-2 border-black rounded-md" type='text' placeholder='Start Searching' onChange={handleChange} />
+      <input className="text-center w-full border-2 border-black rounded-md pt-4 pb-4" type='text' placeholder='Start Searching' onChange={handleChange} /> 
     </div>
   )
 }

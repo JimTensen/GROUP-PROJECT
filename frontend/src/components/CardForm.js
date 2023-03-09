@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import Button from '@mui/material/Button'
 
 function CardForm({addCard}) {
   const [ newAthlete, setNewAthlete ] = useState()
@@ -29,28 +30,28 @@ function CardForm({addCard}) {
   }
 
   return (
-    <div>
+    <div className="bg-black">
       <form onSubmit={ handleSubmit }>
       <div>
-        <input className="border-black border rounded-md" type='text' placeholder='Athlete...'onChange={ e => athleteChange(e) }/>
+        <input className="border-purple-400 border rounded-md bg-black text-purple-400 placeholder-yellow-400 " type='text' placeholder='Athlete...'onChange={ e => athleteChange(e) }/>
       </div>
-      <div>
-        <input className="border-black border rounded-md" type='text' placeholder='Category...'onChange={ e => categoryChange(e) }/>
+      <div className="pt-4">
+        <input className="border-purple-400 border rounded-md bg-black text-purple-400 placeholder-yellow-400 " type='text' placeholder='Category...'onChange={ e => categoryChange(e) }/>
       </div>
-      <div>
-        <input className="border-black border rounded-md" type='text' placeholder='Pack...'onChange={ e => packChange(e) }/>
+      <div className="pt-4">
+        <input className="border-purple-400 border rounded-md bg-black text-purple-400 placeholder-yellow-400 " type='text' placeholder='Pack...'onChange={ e => packChange(e) }/>
       </div>
-      <div>
-        <input className="border-black border rounded-md" type='text' placeholder='Grade...'onChange={ e => gradeChange(e) }/>
+      <div className="pt-4">
+        <input className="border-purple-400 border rounded-md bg-black text-purple-400 placeholder-yellow-400 " type='text' placeholder='Grade...'onChange={ e => gradeChange(e) }/>
       </div>
-      <div>
-        <input className="border-black border rounded-md" type='text' placeholder='Card Front...'onChange={ e => cardFrontChange(e) }/>
+      <div className="pt-4">
+        <input className="border-purple-400 border rounded-md bg-black text-purple-400 placeholder-yellow-400 " type='text' placeholder='Card Front...'onChange={ e => cardFrontChange(e) }/>
       </div>
-      <div>
-        <input className="border-black border rounded-md" type='text' placeholder='Card Back...'onChange={ e => cardBackChange(e) }/>
+      <div className="pt-4">
+        <input className="border-purple-400 border rounded-md bg-black text-purple-400 placeholder-yellow-400 " type='text' placeholder='Card Back...'onChange={ e => cardBackChange(e) }/>
       </div>
-      <div>
-        <button className="border-black border bg-gray-300" type='submit'>Submit Card</button>
+      <div className="pt-4">
+        <Button variant="contained" className="border-purple-400 " type='submit'>Submit Card</Button>
       </div>
       </form>
     </div>

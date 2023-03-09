@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 function Vault() {
   return (
-    <div>
+    <div className="bg-black">
       <div>
         <h3>Vault</h3>
       </div>

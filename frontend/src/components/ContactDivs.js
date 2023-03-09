@@ -1,4 +1,5 @@
 import React from 'react'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function ContactDivs() {
   return (
@@ -28,13 +29,14 @@ function ContactDivs() {
       </div>
       <h1 style={{fontWeight: 'bold'}}>LinkedIn Profiles:</h1>
       <div>  
-        <a href="https://www.linkedin.com/in/beaukim/" rel="noopener" target="_blank" style={{color: 'blue', fontWeight: 'bold'}}>Beau Kim</a>
+        <a href="https://www.linkedin.com/in/beaukim/" rel="noopener" target="_blank" style={{color: 'blue', fontWeight: 'bold'}}>Beau Kim <LinkedInIcon/></a>
+
       </div>
       <div>  
-        <a href="https://www.linkedin.com/in/kenmparks/" rel="noopener" target="_blank" style={{color: 'blue', fontWeight: 'bold'}}>Mason Parks</a>
+        <a href="https://www.linkedin.com/in/kenmparks/" rel="noopener" target="_blank" style={{color: 'blue', fontWeight: 'bold'}}>Mason Parks <LinkedInIcon/></a>
       </div>
       <div>  
-        <a href="https://www.linkedin.com/in/jimtensen/" rel="noopener" target="_blank" style={{color: 'blue', fontWeight: 'bold'}}>Tim Jensen</a>
+        <a href="https://www.linkedin.com/in/jimtensen/" rel="noopener" target="_blank" style={{color: 'blue', fontWeight: 'bold'}}>Tim Jensen <LinkedInIcon/></a>
       </div>
     </div>
   )
