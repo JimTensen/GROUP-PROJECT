@@ -1,6 +1,14 @@
 import React, {useState} from 'react';
 import CardDeck from '@mui/icons-material/ViewCarousel';
 import Button from '@mui/material/Button'
+import { createTheme, ThemeProvider } from '@mui/material';
+
+const theme = createTheme({
+  typography: {
+    fontFamily: [
+      'Russo One'
+    ].join(','),
+  },});
 
 function CardForm({addCard}) {
   const [ newAthlete, setNewAthlete ] = useState()
@@ -54,7 +62,9 @@ function CardForm({addCard}) {
         <input className="border-blue-400 border rounded-md bg-black text-blue-400 placeholder-white " type='text' placeholder='Card Back...'onChange={ e => cardBackChange(e) }/>
       </div>
       <div className="pt-4">
-        <Button variant="contained" className="border-purple-400 " type='submit'>Submit Card</Button>
+        <ThemeProvider theme={theme}>
+          <Button variant="contained" className="border-purple-400 " type='submit'>Submit Card</Button>
+        </ThemeProvider>
       </div>
       </form>
     </div>
