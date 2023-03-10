@@ -11,8 +11,8 @@ athlete: Ken Griffey Jr,
 category: baseball
 pack: 1991 Score
 grade: 10
-imagefront: 
-imageback: 
+imagefront: https://images4.imagebam.com/98/8f/50/MEJAJK3_o.png
+imageback: https://images4.imagebam.com/8e/f2/c0/MEJAJK0_o.png
 
 
 athlete: Shohei Ohtani
