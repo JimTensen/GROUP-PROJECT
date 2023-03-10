@@ -23,6 +23,17 @@ function CardContainer() {
     }
   }
 
+  const removeCardFromList= (removeableCardId) => {
+    const newArray = cards.filter(cardObj => {
+      if( cardObj.id !== removeableCardId) {
+        return true
+      }
+    })
+    setCards(newArray)
+  }
+
+
+
   const searchCard = cards.filter(byAthlete)
 
     const addCard = (cO) => {
@@ -45,7 +56,7 @@ function CardContainer() {
             <CardForm addCard={addCard} />
           </div>
           <div >
-            <CardList cards={searchCard} />
+            <CardList removeCardFromList={removeCardFromList} cards={searchCard} />
           </div>
         </div>
     )

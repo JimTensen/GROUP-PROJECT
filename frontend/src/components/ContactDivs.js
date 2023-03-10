@@ -34,13 +34,13 @@ function ContactDivs() {
         </div>
         <h1 className='text-xl'>LinkedIn Profiles:</h1>
         <div className='text-l pt-4'>  
-          <a href="https://www.linkedin.com/in/beaukim/" rel="noreferrer" target="_blank" >Beau Kim</a>
+          <a href="https://www.linkedin.com/in/beaukim/" rel="noreferrer" target="_blank" >Beau Kim <span className="pl-2"><LinkedInIcon/></span></a>
         </div>
         <div className='text-l pt-4'>  
-          <a href="https://www.linkedin.com/in/kenmparks/" rel="noreferrer" target="_blank" >Mason Parks</a>
+          <a href="https://www.linkedin.com/in/kenmparks/" rel="noreferrer" target="_blank" >Mason Parks <span className="pl-2"><LinkedInIcon/></span></a>
         </div>
         <div className='text-l pt-4'>  
-          <a href="https://www.linkedin.com/in/jimtensen/" rel="noreferrer" target="_blank" >Tim Jensen</a>
+          <a href="https://www.linkedin.com/in/jimtensen/" rel="noreferrer" target="_blank" >Tim Jensen <span className="pl-2"><LinkedInIcon/></span></a>
         </div>
       </div>
     </div>

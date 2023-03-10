@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import CardDeck from '@mui/icons-material/ViewCarousel';
 import Button from '@mui/material/Button'
 
 function CardForm({addCard}) {
@@ -31,6 +32,7 @@ function CardForm({addCard}) {
 
   return (
     <div className="bg-black">
+      <span className="text-white"> ADD A CARD <CardDeck className="pb-1"/> </span>
       <form onSubmit={ handleSubmit }>
         <div></div>
       <div>
