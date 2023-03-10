@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from './Card'
 
-function CardList( {cards} ) {
+function CardList( {removeCardFromList, cards} ) {
 
   const cardsArray = cards.map(cardObj => {
-    return <Card key={cardObj.id} card={cardObj} />
+    return <Card removeCardFromList={removeCardFromList} key={cardObj.id} card={cardObj} />
   })
 
   return (
