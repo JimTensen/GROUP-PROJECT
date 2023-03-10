@@ -14,7 +14,7 @@ function Home() {
           <img className="relative inline-block w-3/4" alt="Sports Home Page" src={sportsPage}/>
           <aside className="absolute inline-block scroll-bg">
             <div className="scroll-div pt-[100px]">
-              <div className="scroll-obj ">
+              <div className="scroll-obj pt-[250px] px-[300px]">
                 <HomeDivs />
               </div>
             </div>

@@ -7,7 +7,7 @@ function HomeDivs2() {
                 <div>    
                     <img src="https://upload.wikimedia.org/wikipedia/en/4/44/MLS_Season_Pass_logo.png" alt='' />
                 </div>  
-                <div>
+                <div className="pl-[440px]">
                     <img src="https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop/f_auto/mls-atl-prd/ktitkxubj324o2m9kebz.jpg" alt ="mls tickets" />
                 </div>         
             </div>
@@ -15,7 +15,7 @@ function HomeDivs2() {
                 <div className='underline underline-offset-8 text-white text-center text-2xl'>
                     <h1>New Releases</h1>
                 </div>
-                <div className='grid grid-cols-3 pt-12 pb-12 h-[700px] ml-[249px] underline underline-offset-8 text-blue-400 text-justify text-l'>
+                <div className='grid grid-cols-3 pt-12 pb-12 h-[700px] ml-[640px] underline underline-offset-8 text-blue-400 text-justify text-l'>
                     <div className='w-[300px] h-[200px] text-center'>
                         <img src="https://images4.imagebam.com/0a/18/64/MEJAJJW_o.png" alt="card 1" />
                         <h3>Juan Soto 2018 Topps Brooklyn Collection</h3>

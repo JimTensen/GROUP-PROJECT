@@ -3,7 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function ContactDivs() {
   return (
-    <div className='grid grid-cols-2 pl-[700px] pt-[150px] pb-[150px] bg-black'>
+    <div className='grid grid-cols-2 pl-[700px] pt-[250px] pb-[650px] bg-black h-2000'>
       <div>
         <div className='bg-blue-400 pl-10 pt-8 pb-8 rounded-xl text-white'>
           <h1 className='text-2xl pb-2'>Contact Form</h1>
@@ -34,10 +34,12 @@ function ContactDivs() {
                 </div>
                 <div className='text-black'>
               <h3 className='text-white'>Comments</h3>
+                <div className='text-black'>  
+                  <textarea id="comments" style={{resize: "none", height: "175px", width: "400px", border: "solid", borderRadius: "4%"}}></textarea>
                 </div>
+              </div>
             </div>
-            <textarea id="comments" style={{resize: "none", height: "175px", width: "400px", border: "solid", borderRadius: "4%"}}></textarea>
-        </div>
+          </div>
       </div>
     </div>
   )
